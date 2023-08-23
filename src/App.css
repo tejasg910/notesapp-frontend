@@ -1,0 +1,27 @@
+.App {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Adjust the opacity value as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.hide {
+  display: none;
+}
